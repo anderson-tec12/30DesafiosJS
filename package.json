@@ -1,0 +1,36 @@
+{
+  "name": "30DesafiosJS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "easy": "yarn tsc ./easy*.ts",
+    "build:babel": "babel src --extensions \".js,.ts\" --out-dir dist --copy-files"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anderson-tec12/30DesafiosJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anderson-tec12/30DesafiosJS/issues"
+  },
+  "homepage": "https://github.com/anderson-tec12/30DesafiosJS#readme",
+  "dependencies": {
+    "typescript": "^4.9.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.7",
+    "@babel/node": "^7.20.7",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-proposal-decorators": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-typescript": "^7.18.6",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "babel-plugin-transform-decorators": "^6.24.1",
+    "babel-plugin-transform-typescript-metadata": "^0.3.2"
+  }
+}
