@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "easy": "yarn tsc ./easy*.ts",
-    "build:babel": "babel src --extensions \".js,.ts\" --out-dir dist --copy-files"
+    "build": "babel src --extensions \".js,.ts\" --out-dir dist --copy-files"
   },
   "repository": {
     "type": "git",
